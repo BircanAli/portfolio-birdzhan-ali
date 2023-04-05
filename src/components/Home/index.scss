@@ -1,0 +1,20 @@
+.container {
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+
+  h1 {
+    font-size: 80px;
+    font-family: "Roboto";
+    margin: 10px;
+    padding: 10px;
+    color: #f5f5f5;
+    letter-spacing: 10px;
+  }
+  p {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 1.5px;
+  }
+}

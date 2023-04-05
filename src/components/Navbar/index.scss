@@ -1,0 +1,98 @@
+.nav-bar {
+  background: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  top: 0;
+  z-index: 3;
+  min-width: 500px;
+
+  .logo {
+    padding: 8px 0;
+
+    img {
+      display: block;
+      margin: 10px auto;
+      width: 40px;
+      height: 40px;
+
+      &.sub-logo {
+        width: 100px;
+      }
+    }
+  }
+
+  nav {
+    width: auto;
+    height: 80px;
+    display: flex;
+
+    align-items: center;
+    a {
+      font-size: 25px;
+      text-align: center;
+      padding: 8px;
+      margin: 8px;
+      color: #8f8f8f;
+      text-decoration: none;
+      position: relative;
+      &:hover {
+        color: #ffc107;
+        svg {
+          opacity: 0;
+        }
+        &::after {
+          opacity: 1;
+        }
+      }
+      &::after {
+        content: "";
+        font-size: 12px;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 40%;
+        opacity: 0;
+        display: block;
+      }
+      &:nth-child(1) {
+        &::after {
+          content: "HOME";
+        }
+      }
+      &:nth-child(2) {
+        &::after {
+          content: "ABOUT";
+        }
+      }
+      &:nth-child(3) {
+        &::after {
+          content: "CONTACT";
+        }
+      }
+    }
+    a.active {
+      svg {
+        color: #ffc107;
+      }
+    }
+  }
+  ul {
+    padding: 10px;
+    list-style: none;
+
+    li {
+      text-decoration: none;
+      a {
+        padding: 10px;
+        margin: 8px;
+        font-size: 20px;
+
+        &:hover svg {
+          color: #ffc107;
+        }
+      }
+    }
+  }
+}
