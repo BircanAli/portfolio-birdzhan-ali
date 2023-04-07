@@ -1,0 +1,106 @@
+.tictactoe {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  font-family: "Julius Sans one";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 500px;
+
+  h1 {
+    color: blue;
+  }
+}
+
+.gameboard {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.gameboard .square:nth-child(1) {
+  border-bottom: solid 3px white;
+  border-right: solid 3px white;
+}
+.square:nth-child(2) {
+  border-bottom: solid 3px white;
+  border-right: solid 3px white;
+}
+.square:nth-child(3) {
+  border-bottom: solid 3px white;
+}
+.square:nth-child(4) {
+  border-bottom: solid 3px white;
+  border-right: solid 3px white;
+}
+.square:nth-child(5) {
+  border-bottom: solid 3px white;
+  border-right: solid 3px white;
+}
+.square:nth-child(6) {
+  border-bottom: solid 3px white;
+}
+.square:nth-child(7) {
+  border-right: solid 3px white;
+}
+.square:nth-child(8) {
+  border-right: solid 3px white;
+}
+.circle {
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  border: 15px solid #c4c4c4;
+}
+
+.cross {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.cross:before,
+.cross:after {
+  content: "";
+  position: absolute;
+  background-color: #ffc107;
+}
+
+.cross:before {
+  left: 50%;
+  width: 30%;
+  margin-left: -15%;
+  height: 100%;
+  border-radius: 100% / 30%;
+}
+
+.cross:after {
+  top: 50%;
+  height: 30%;
+  margin-top: -15%;
+  width: 100%;
+  border-radius: 30% / 100%;
+}
+
+p {
+  font-size: 20px;
+}
+svg:hover {
+  cursor: pointer;
+  color: #ffc107;
+}

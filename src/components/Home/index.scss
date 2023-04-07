@@ -1,4 +1,4 @@
-.container {
+.container-home {
   position: absolute;
   left: 10%;
   padding: 10px;
@@ -16,5 +16,9 @@
     margin: 0;
     padding: 10px;
     letter-spacing: 1.5px;
+    span {
+      padding: 10px;
+      color: #ffc107;
+    }
   }
 }

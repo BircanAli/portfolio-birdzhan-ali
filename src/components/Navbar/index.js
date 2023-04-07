@@ -1,12 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import "./index.scss";
 import LogoB from "../../assets/images/b-white-removebg-preview.png";
-import BirdzhanLogo from "../../assets/images/birdzhan-ali-2-removebg-preview.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAddressCard,
   faEnvelope,
   faHome,
+  faFolderClosed,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -17,11 +18,12 @@ import {
 const Navbar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link className="logo" to="/" style={{ textDecoration: "none" }}>
         <img src={LogoB} alt="logo" />
+        <p>Birdzhan Ali</p>
       </Link>
       <nav>
-        <NavLink exact="true" activeClassName="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#757575" />
         </NavLink>
         <NavLink exact="true" activeclassname="active" to="/about">
@@ -29,6 +31,9 @@ const Navbar = () => {
         </NavLink>
         <NavLink exact="true" activeclassname="active" to="/contacts">
           <FontAwesomeIcon icon={faEnvelope} color="#757575" />
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/projects">
+          <FontAwesomeIcon icon={faFolderClosed} color="#757575" />
         </NavLink>
       </nav>
       <ul>
