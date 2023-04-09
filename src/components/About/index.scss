@@ -1,0 +1,26 @@
+.container-about {
+  display: flex;
+  justify-content: center;
+  .text {
+    padding: 0 10rem;
+    width: 80rem;
+  }
+  h1 {
+    font-family: "Roboto";
+    font-size: 50px;
+    margin: 0 2rem;
+  }
+  p {
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+  }
+
+  img {
+    display: block;
+    padding: 2rem;
+    margin: 1rem;
+    width: 40rem;
+    height: auto;
+  }
+}

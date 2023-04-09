@@ -1,4 +1,5 @@
 import "../Home/index.scss";
+import TicTacToe from "../Home/TicTacToe";
 
 const Home = () => {
   return (
@@ -6,8 +7,11 @@ const Home = () => {
       <div className="container-home">
         <h1>Hello .</h1>
         <p>
-          <span className="dash">-</span>My name is Birdzhan Ali
+          <span>-</span>My name is Birdzhan Ali
         </p>
+      </div>
+      <div className="container-tictactoe">
+        <TicTacToe />
       </div>
     </>
   );
