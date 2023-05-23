@@ -1,0 +1,33 @@
+.projects-container {
+  max-width: 120rem;
+  margin: 5rem auto;
+
+
+  .project {
+    width: 100%;
+
+    display: flex;
+    gap: 3rem;
+    margin: 2rem 2rem;
+
+    .img-container {
+      width: 60rem;
+    }
+
+    .img-project {
+      max-height: 100%;
+      max-width: 100%;
+      padding: 1rem;
+      object-fit: contain;
+    }
+
+    .project-text {
+      width: 100%;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+  }
+}

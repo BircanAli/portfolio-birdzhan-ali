@@ -44,6 +44,7 @@ const TicTacToe = (props) => {
   };
   useEffect(() => {
     checkScore();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cells]);
 
   const handleButtonClick = (e) => {

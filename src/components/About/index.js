@@ -1,7 +1,7 @@
 import "../About/index.scss";
 import certificate1 from "../../assets/certificates/certificate1.jpg";
 import certificate2 from "../../assets/certificates/certificate2.jpg";
-import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <>

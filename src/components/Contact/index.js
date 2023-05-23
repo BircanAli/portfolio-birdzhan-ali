@@ -1,10 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../Contact/index.scss";
-import {
-  faEnvelope,
-  faLocationDot,
-  faMobile,
-} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
@@ -28,31 +22,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      {/* <div className="info">
-        <h1>Info .</h1>
-        <ul>
-          <li>
-            <FontAwesomeIcon icon={faEnvelope} />
-            <span>Email</span>
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faMobile} />
-            <span>Phone Number</span>{" "}
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faLocationDot} />
-            <span>Mühlhausen</span>
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faLocationDot} />
-            <span>Thüringen</span>
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faLocationDot} />
-            <span>Germany</span>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 };
