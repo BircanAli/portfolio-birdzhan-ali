@@ -102,7 +102,8 @@ const Projects = () => {
             <br />
             <a
               href="https://github.com/BircanAli/MERN-Social-page"
-              rel="noreffer"
+              rel="noreferrer"
+              target="_blank"
             >
               https://github.com/BircanAli/MERN-Social-page
             </a>

@@ -26,9 +26,10 @@ const About = () => {
 
         <div className="certificates">
           <div>
-            <img src={certificate1} alt="certificate"></img>
-
-            <img src={certificate2} alt="certificate"></img>
+            <img src={certificate1} alt="certificate" />
+          </div>
+          <div>
+            <img src={certificate2} alt="certificate" />
           </div>
         </div>
       </div>

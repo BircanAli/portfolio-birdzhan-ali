@@ -3,6 +3,7 @@
   margin: 5rem auto;
 
 
+
   .project {
     width: 100%;
 
@@ -37,6 +38,33 @@
         color: #ffc107;
       }
     }
+
+  }
+}
+
+@media (max-width:1000px) {
+  .projects-container {
+
+
+    .project {
+      flex-direction: column;
+
+      .img-container {
+        width: 100%;
+        max-width: 500px
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+
+    }
+
 
   }
 }

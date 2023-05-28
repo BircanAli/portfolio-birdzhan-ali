@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+  max-width: 100%;
 
   .text {
-    padding: 0 10rem;
+    padding: 0 3rem;
     width: 80rem;
 
 
@@ -22,33 +23,53 @@
   }
 
   img {
-    display: block;
+
     padding: 2rem;
     margin: 1rem;
     width: 40rem;
-    height: auto;
+
   }
 }
 
+
+
 @media (max-width:1000px) {
   .container-about {
-    display: flex;
+
     flex-direction: column;
-    align-items: center;
-    width: 60rem;
+
+
 
     .text {
+      margin: 2rem;
+      width: 100%;
+
       h1 {
         font-size: 3rem;
-
+        text-align: center;
 
       }
 
       p {
         font-size: 1.5rem;
-        margin: 3rem;
+        margin: 2rem auto;
+        text-align: center;
+      }
+    }
+
+    .certificates {
+      display: flex;
+      gap: 1rem;
+      flex-direction: column;
+      align-self: center;
+      width: clamp(30rem, 3.5vw, 70rem);
+
+      div,
+      .img {
+        width: 100%;
 
       }
     }
+
   }
 }
