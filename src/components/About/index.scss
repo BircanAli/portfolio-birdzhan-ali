@@ -2,19 +2,23 @@
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+
   .text {
     padding: 0 10rem;
     width: 80rem;
-  }
-  h1 {
-    font-family: "Roboto";
-    font-size: 50px;
-    margin: 0 2rem;
-  }
-  p {
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 0.1rem;
-    line-height: 2.5rem;
+
+
+    h1 {
+      font-family: "Roboto";
+      font-size: 50px;
+      margin: 0 2rem;
+    }
+
+    p {
+      font-family: "Courier New", Courier, monospace;
+      letter-spacing: 0.1rem;
+      line-height: 2.5rem;
+    }
   }
 
   img {
@@ -23,5 +27,28 @@
     margin: 1rem;
     width: 40rem;
     height: auto;
+  }
+}
+
+@media (max-width:1000px) {
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60rem;
+
+    .text {
+      h1 {
+        font-size: 3rem;
+
+
+      }
+
+      p {
+        font-size: 1.5rem;
+        margin: 3rem;
+
+      }
+    }
   }
 }
