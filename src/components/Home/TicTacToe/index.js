@@ -28,7 +28,7 @@ const TicTacToe = (props) => {
         setTimeout(() => {
           setCells(["", "", "", "", "", "", "", "", ""]);
           setWinningMessage(null);
-        }, 7000);
+        });
       }
     });
     winningCombos.forEach((array) => {
@@ -38,7 +38,7 @@ const TicTacToe = (props) => {
         setTimeout(() => {
           setCells(["", "", "", "", "", "", "", "", ""]);
           setWinningMessage(null);
-        }, 7000);
+        });
       }
     });
   };
