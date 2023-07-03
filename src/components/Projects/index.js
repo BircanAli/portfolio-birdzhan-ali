@@ -4,6 +4,7 @@ import ToDoList from "../../assets/projects-images/ToDoList.png";
 import OmniFood from "../../assets/projects-images/OmniFoot — Never cook again-small.png";
 import Sociopad1 from "assets/projects-images/ReactAppHomeLightMode.png";
 import Sociolad2 from "assets/projects-images/ReactAppHomePageDarkModee.png";
+import SheryanNails from "assets/projects-images/SheryanNailArt.png";
 
 const Projects = () => {
   return (
@@ -72,6 +73,30 @@ const Projects = () => {
           <p>
             <a href="https://omnifood-birdzhanali.netlify.app/" rel="noreffer">
               https://omnifood-birdzhanali.netlify.app/
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div className="project">
+        <div className="img-container">
+          <a
+            href="https://sheryan-nails.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="img-project" src={SheryanNails} alt="project img" />
+          </a>
+        </div>
+        <div className="project-text">
+          <h1>My Landing page for my wife and i am still work on it .</h1>
+          <p>This landing page includes .</p>
+          <p>Hero section .</p>
+          <p>Testimonials .</p>
+          <p>Contact me .</p>
+          <p>
+            <a href="https://sheryan-nails.netlify.app/" rel="noreffer">
+              https://sheryan-nails.netlify.app/
             </a>
           </p>
         </div>
