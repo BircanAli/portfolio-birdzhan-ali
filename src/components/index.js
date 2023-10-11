@@ -1,0 +1,12 @@
+export { default as Footer } from "./Footer";
+export { default as Logo } from "./Logo";
+export { default as Menu } from "./Menu";
+export { default as Navbar } from "./Navbar";
+export { default as MenuButton } from "./MenuButton";
+export { default as Socials } from "./Socials";
+export { default as Icons } from "./Icons";
+export { default as ThemeBtn } from "./ThemeBtn";
+export { default as HeroSection } from "./HeroSection";
+export { default as Skills } from "./Skills";
+export { default as ImgZoomer } from "./ImgZoomer";
+export { default as Challenges } from "./Challenges";
