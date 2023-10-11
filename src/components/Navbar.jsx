@@ -1,4 +1,3 @@
-import Socials from "./Socials";
 import { Logo, Menu, MenuButton, ThemeBtn } from "./index";
 import { useLayoutContext } from "../pages/Layout";
 

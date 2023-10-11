@@ -1,6 +1,4 @@
-import {
-  FaHome,
-} from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { GoProjectSymlink } from "react-icons/go";
 import { MdOutlineLocalPostOffice } from "react-icons/md";
@@ -12,17 +10,17 @@ const links = [
     icon: <FaHome />,
   },
   {
-    path: "/about",
+    path: "about",
     text: "About Me",
     icon: <FcAbout />,
   },
   {
-    path: "/projects",
+    path: "projects",
     text: "Projects",
     icon: <GoProjectSymlink />,
   },
   {
-    path: "/contacts",
+    path: "contacts",
     text: "Contact Me",
     icon: <MdOutlineLocalPostOffice />,
   },
