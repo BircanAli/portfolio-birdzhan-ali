@@ -9,7 +9,7 @@ const myProjects = {
   },
   projectThree: {
     num: "3",
-    url: "src/assets/project-videos/OmniFood-landing.mp4",
+    url: "https://res.cloudinary.com/dhsb8lyno/video/upload/v1697063001/fkjigkzure8u78nzxy5b.mp4",
   },
   projectFour: {
     num: "4",
