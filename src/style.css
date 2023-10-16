@@ -587,9 +587,7 @@ main .grid__info .btn-container ul li a {
   font-size: clamp(1.875em, 2.7vw, 2.7em);
   color: var(--primary-color);
 }
-main .grid__info .btn-container ul li a:visited {
-  color: inherit;
-}
+
 main .grid__info .btn-container ul li a:hover {
   color: var(--text-color);
 }
