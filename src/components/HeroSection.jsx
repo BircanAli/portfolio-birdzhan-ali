@@ -14,7 +14,7 @@ const HeroSection = () => {
       <article className="hero_header">
         <h1>Welcome .</h1>
 
-        <p>I'am a Web Developer . </p>
+        <p>I'm a Web Developer . </p>
         <ul>
           <li>
             <Icons path={linkedIn.path} icon={linkedIn.icon} />

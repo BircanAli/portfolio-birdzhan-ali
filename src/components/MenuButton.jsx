@@ -6,7 +6,7 @@ const MenuButton = ({ toggleMenuBtn, isMenu }) => {
 
   return (
     <>
-      <button onClick={toggleMenu}>
+      <button onClick={toggleMenu} title="Menu" aria-label="Menu">
         {isMenu ? <AiOutlineClose /> : <AiOutlineMenu />}
       </button>
       <span>{isMenu ? "Close" : "Menu"}</span>

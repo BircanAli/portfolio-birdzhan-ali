@@ -6,7 +6,11 @@ const ThemeBtn = ({ toggleDarkTheme, isDarkTheme }) => {
   return (
     <div className="navbar__dark">
       <span>THEME</span>
-      <button onClick={toggleDarkTheme}>
+      <button
+        onClick={toggleDarkTheme}
+        aria-label="Dark-mode"
+        title="Dark Mode"
+      >
         {isDarkTheme ? <FaSun /> : <BsFillMoonStarsFill />}
       </button>
     </div>
