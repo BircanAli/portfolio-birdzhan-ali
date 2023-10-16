@@ -1,7 +1,6 @@
 import certificateOne from "../assets/images/certificate1.jpg";
 import certificateTwo from "../assets/images/certificate2.jpg";
 import certificateThree from "../assets/images/certificate3.png";
-import anyPic from "../assets/svg-icons/css-icon.svg";
 
 const certificateImg = [
   {
