@@ -6,7 +6,7 @@ const Challenges = () => {
     return (
       <li key={index}>
         <Link to={path} target="_blank">
-          <img src={src} alt={alt} />
+          <img src={src} alt={alt} width="600" height="400" />
         </Link>
       </li>
     );
