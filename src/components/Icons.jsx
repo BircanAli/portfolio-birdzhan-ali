@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-
-const Icons = ({ path, icon }) => {
+const Icons = ({ path, icon, text }) => {
   return (
     <div>
+      {text && <p>{text} </p>}
       <a
         href={path}
         target="_blank"

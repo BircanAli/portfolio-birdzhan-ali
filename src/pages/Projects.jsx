@@ -109,6 +109,13 @@ const Projects = () => {
                   icon={<CgBrowser />}
                 />
               </li>
+              <li>
+                <Icons
+                  text="Actual page: "
+                  path={"https://omnifood-birdzhanali.netlify.app/"}
+                  icon={<CgBrowser />}
+                />
+              </li>
             </ul>
           </div>
         </article>
