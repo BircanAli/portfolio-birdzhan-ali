@@ -98,7 +98,7 @@ ul {
   width: 100%;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 ::-moz-placeholder {
@@ -119,11 +119,14 @@ ul {
 
 @font-face {
   font-family: "Roboto Slab";
-  src: local("Roboto-Slab"), url("/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+  src: local("Roboto-Slab"),
+    url("/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf")
+      format("truetype");
 }
 @font-face {
   font-family: "Black Ops";
-  src: local("Black-Ops-One"), url("/fonts/Black_Ops_One/BlackOpsOne-Regular.ttf") format("truetype");
+  src: local("Black-Ops-One"),
+    url("/fonts/Black_Ops_One/BlackOpsOne-Regular.ttf") format("truetype");
 }
 footer {
   text-align: center;
@@ -532,7 +535,7 @@ main .grid {
   grid-template-columns: repeat(2, minmax(400px, 600px));
   justify-content: space-evenly;
   -moz-column-gap: 5rem;
-       column-gap: 5rem;
+  column-gap: 5rem;
   padding: 2rem;
   margin-top: 2rem;
 }
@@ -541,7 +544,7 @@ main .grid__video video {
   border-radius: 10px;
   width: 100%;
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 main .grid__info {
   display: grid;
@@ -566,7 +569,7 @@ main .grid__info .btn-container ul {
   display: flex;
   gap: 10%;
 }
-main .grid__info .btn-container ul li {
+main .grid__info .btn-container ul li a {
   font-size: clamp(1.875em, 2.7vw, 2.7em);
   color: var(--primary-color);
 }
@@ -589,7 +592,7 @@ main .grid__info .btn-container ul li a:hover {
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 600px));
   -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  column-gap: 3rem;
 }
 .grid .contacts {
   padding: 1rem;
@@ -702,4 +705,4 @@ main .grid__info .btn-container ul li a:hover {
 }
 .grid .socials__container a:hover {
   color: var(--text-color);
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
