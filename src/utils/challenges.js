@@ -6,6 +6,7 @@ import keeperApp from "../assets/challange-images/keeper-app.png";
 import toDoList from "../assets/challange-images/to-do-list.png";
 import cardShoppingBag from "../assets/challange-images/card-shoping-bag.png";
 import newsLetter from "../assets/challange-images/newsletter.png";
+import expensesChart from "../assets/challange-images/expenses-chart.png";
 
 const challengesList = [
   {
@@ -49,7 +50,7 @@ const challengesList = [
     alt: "fem news letter sing up",
   },
   {
-    src: newsLetter,
+    src: expensesChart,
     path: "https://fem-expense-chart.netlify.app/",
     alt: "fem news letter sing up",
   },
