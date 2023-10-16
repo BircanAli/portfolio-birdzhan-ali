@@ -5,8 +5,8 @@ import femComingSoon from "../assets/challange-images/fem-coming-soon.png";
 import keeperApp from "../assets/challange-images/keeper-app.png";
 import toDoList from "../assets/challange-images/to-do-list.png";
 import cardShoppingBag from "../assets/challange-images/card-shoping-bag.png";
-import newsLetter from "../assets/challange-images/newsletter.png";
 import expensesChart from "../assets/challange-images/expenses-chart.png";
+import newsLetter from "../assets/challange-images/news-letter.png";
 
 const challengesList = [
   {
