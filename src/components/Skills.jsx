@@ -13,8 +13,8 @@ const Skills = () => {
     <section className="skills">
       <article className="skills__info">
         <p>
-          A Software Developer who focuses on creating accessible and performant
-          user experiences on the web. With a passion for learning, I am always
+          A Web Developer who focuses on creating accessible and performant user
+          experiences on the web. With a passion for learning, I am always
           searching for ways to improve the quality of the web for all users.
         </p>
       </article>
