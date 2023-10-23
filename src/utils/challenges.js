@@ -7,6 +7,7 @@ import toDoList from "../assets/challange-images/to-do-list.png";
 import cardShoppingBag from "../assets/challange-images/card-shoping-bag.png";
 import expensesChart from "../assets/challange-images/expenses-chart.png";
 import newsLetter from "../assets/challange-images/news-letter.png";
+import femCardForm from "../assets/challange-images/fem-interactive-card.png";
 
 import femCardWebp from "../assets/challange-images/fem-card.webp";
 import femCardTwoWebp from "../assets/challange-images/fem-card-two.webp";
@@ -17,6 +18,7 @@ import toDoListWebp from "../assets/challange-images/to-do-list.webp";
 import cardShoppingBagWebp from "../assets/challange-images/card-shoping-bag.webp";
 import expensesChartWebp from "../assets/challange-images/expenses-chart.webp";
 import newsLetterWebp from "../assets/challange-images/news-letter.webp";
+import femCardFormWebp from "../assets/challange-images/fem-interactive-card.webp";
 
 const challengesList = [
   {
@@ -72,6 +74,12 @@ const challengesList = [
     path: "https://fem-expense-chart.netlify.app/",
     alt: "fem news letter sing up",
     webp: expensesChartWebp,
+  },
+  {
+    src: femCardForm,
+    path: "https://fem-interactiv-card.netlify.app/",
+    alt: "fem bank card  sing up",
+    webp: femCardFormWebp,
   },
 ];
 
